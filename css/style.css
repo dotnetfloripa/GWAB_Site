@@ -1587,3 +1587,7 @@ ul.social-icons {
     width: 100%;
     text-align: center;
 }
+
+.centered {
+    margin: 0 auto;
+}
