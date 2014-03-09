@@ -354,6 +354,13 @@ ul.filter {
     margin-bottom: 45px;
 }
 
+.logo-patrocinador {
+    margin: 15px;
+    width: 262px;
+    position: relative;
+    background: white;
+}
+
 .project-post {
     margin: 15px;
     width: 262px;
@@ -364,10 +371,7 @@ ul.filter {
         width: 100%;
         position: relative;
         z-index: 2;
-        transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -webkit-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
+        
     }
 
 .project-content {
