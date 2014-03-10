@@ -371,7 +371,6 @@ ul.filter {
         width: 100%;
         position: relative;
         z-index: 2;
-        
     }
 
 .project-content {
@@ -654,6 +653,10 @@ ul.filter {
 .cbp-ig-grid li > a:hover {
     background: #1E90FF;
 }
+
+    .cbp-ig-grid li > a:hover p.paragrafo_palestra {
+        color: #fff !important;
+    }
 
     .cbp-ig-grid li > a:hover .cbp-ig-icon {
         -webkit-transform: translateY(10px);
