@@ -228,7 +228,7 @@ a:hover {
     margin-bottom: 45px;
 }
 
-    .home-post a {
+    .home-post a.link {
         position: relative;
         display: inline-block;
         border: 1px solid #f2f2f2;
@@ -245,7 +245,7 @@ a:hover {
         -o-transition: all 0.17s ease-in-out;
     }
 
-        .home-post a img {
+        .home-post a.link img {
             margin-top: 35px;
             margin-left: 30px;
             transition: all 0.25s ease-in-out;
@@ -254,7 +254,7 @@ a:hover {
             -o-transition: all 0.25s ease-in-out;
         }
 
-        .home-post a:hover img {
+        .home-post a.link:hover img {
             -webkit-transform: rotate(360deg);
             -moz-transform: rotate(360deg);
             -o-transform: rotate(360deg);
@@ -262,7 +262,7 @@ a:hover {
             transform: rotate(360deg);
         }
 
-        .home-post a:after {
+        .home-post a.link:after {
             content: '';
             position: absolute;
             width: 166px;
@@ -831,7 +831,6 @@ ul.social li {
 
     .who-we-are h2 {
         font-size: 24px;
-        text-transform: capitalize;
         margin-bottom: 18px;
     }
 
